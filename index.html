@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+</head>
+
+<bodyq>
+
+    <!-- Barra de Navegacion-->
+    <nav>
+        <div class="nav-wrapper teal darken-4" style="padding-left: 5%;">
+            <i class="material-icons left">groups</i>
+            <a href="#!" class="brand-logo left">Junta de Vecinos</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html"><i class="material-icons left" style="margin-left: 4px;">home</i>Inicio</a>
+                </li>
+                <li><a href="vistas/galeria.php"><i class="material-icons left">photo_library</i>Galeria</a></li>
+                <li><a href="vistas/nosotros.php"><i class="material-icons left">groups</i>Nosotros</a></li>
+                <li><a href="vistas/login.php"><i class="material-icons left">account_circle</i>Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Imagen con info de la pagina -->
+    <div class="row">
+        <div class="col s12" style="background-image: url(img/bg_house.jpg);" style="height: 400px;">
+            <h1 class="center-align" style="padding: 1.8%; color: transparent;">Informacion proximamente</h1>
+        </div>
+    </div>
+
+    <!-- Presentacion de la pagina -->
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <h1 class="header center green-text">Junta de Vecinos</h1>
+            <div class="divider"></div>
+            <div class="row center">
+                <h5 class="header col s12 light">Villa Don Mateo 1 y 2</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Iconos y Resumen -->
+    <div class="container">
+        <div class="section">
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-green-text"><i class="large material-icons">groups</i></h2>
+                        <h5 class="center">Una comunidad mas unidad</h5>
+
+                        <p class="light center-align">Informacion sobre la comunidad y en como podria ser mas unida
+                            posiblemente.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-green-text"><i class="large material-icons">forum</i></h2>
+                        <h5 class="center">Un lugar donde puedes comunicarte</h5>
+
+                        <p class="light center-align">Informacion sobre la comunidad y en como podria ser mas unida
+                            posiblemente.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-green-text"><i class="large material-icons">gpp_good</i></h2>
+                        <h5 class="center">Por un lugar mas seguro para todos</h5>
+                        <p class="light center-align">Informacion sobre la comunidad y en como podria ser mas unida
+                            posiblemente.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br><br>
+    </div>
+
+    <!-- Encabezado Titulos Noticias-->
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header hoverable">
+                            <i class="material-icons">import_contacts</i>Ultimas Noticias
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s12 center-align">
+                <ul class="sliderP">
+                    <li id="slide1">
+                        <img src="img/ley_vecinos.png" style="width:100%">
+                    </li>
+                    <li id="slide2">
+                        <img src="img/casas_mateo.jpg">
+                    </li>
+                    <li id="slide3">
+                        <img src="img/cescof.jpg">
+                    </li>
+                </ul>
+            </div>
+            <div class="col s12 center-align">
+                <ul>
+                    <li>
+                        <a href="#slide1" class="waves-effect waves-light btn" style="margin:4px;">1</a>
+                        <a href="#slide2" class="waves-effect waves-light btn" style="margin:4px;">2</a>
+                        <a href="#slide3" class="waves-effect waves-light btn" style="margin:4px;">3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Encabezado Titulos Actividades-->
+    <div class="container">
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible-header hoverable">
+                    <i class="material-icons">import_contacts</i>Actividades Recientes
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Cards de la pagina -->
+    <div class="container">
+        <div class="row">
+            <!-- Cards para las noticias mas importantes -->
+            <div class="col s12">
+                <!-- Noticia 1 -->
+                <div class="col s6">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/vecinos.jpg" height="340">
+                        </div>
+                        <div class="card-content">
+                            <b><span class="card-title">Vecinos cuentan con una nueva multicancha</span></b>
+                            <p>Más de 47 millones de pesos fue el monto invertido en mejorar la deteriorada multicancha
+                                de las villas Don Mateo 1 y 2, del sector norte de Rancagua...</p>
+                            <a href="vistas/noticias/multicancha.php" class="waves-effect waves-light btn"
+                                style="margin-top:2%;">Leer Mas...</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Noticia 2 -->
+                <div class="col s6">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/alimentos.jpg" height="340">
+                        </div>
+                        <div class="card-content">
+                            <b><span class="card-title">Ayuda Municipal</span></b>
+                            <p>Hace pocos dias atras personal de la municipalidad realizo una entrega de alimentos en la
+                                villa.</p>
+                            <a href="vistas/noticias/ayudaMunicipal.php" class="waves-effect waves-light btn"
+                                style="margin-top:2%;">Leer Mas...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer de la pagina -->
+    <footer class="page-footer teal darken-4">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2022 Kuro & MT
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="js/materialize.min.js">
+    </script>    
+
+    </body>
+
+</html>
